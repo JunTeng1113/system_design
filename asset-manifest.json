@@ -1,15 +1,23 @@
 {
   "files": {
     "main.css": "/system_design/static/css/main.e6c13ad2.css",
-    "main.js": "/system_design/static/js/main.04c7736d.js",
+    "main.js": "/system_design/static/js/main.bf3ce233.js",
     "static/js/787.3b014683.chunk.js": "/system_design/static/js/787.3b014683.chunk.js",
+    "static/media/怪奇物語4.jfif": "/system_design/static/media/怪奇物語4.5f263aa81cb3d9718061.jfif",
+    "static/media/奇異博士2：失控多重宇宙.jpg": "/system_design/static/media/奇異博士2：失控多重宇宙.7815ececda58ceb13f55.jpg",
+    "static/media/theater2.jpg": "/system_design/static/media/theater2.92402dfafc051473b2e6.jpg",
+    "static/media/theater4.jpg": "/system_design/static/media/theater4.9157d0b616efc81da489.jpg",
+    "static/media/theater1.jpg": "/system_design/static/media/theater1.03a2aa6121b625e3b5d8.jpg",
+    "static/media/怪獸與鄧不利多的秘密.jpg": "/system_design/static/media/怪獸與鄧不利多的秘密.9a313c83759a35ac4690.jpg",
+    "static/media/theater3.jpg": "/system_design/static/media/theater3.4952642bb255c87df526.jpg",
+    "static/media/我吃了那男孩一整年的早餐.jfif": "/system_design/static/media/我吃了那男孩一整年的早餐.885cb0848bc90acb66a2.jfif",
     "index.html": "/system_design/index.html",
     "main.e6c13ad2.css.map": "/system_design/static/css/main.e6c13ad2.css.map",
-    "main.04c7736d.js.map": "/system_design/static/js/main.04c7736d.js.map",
+    "main.bf3ce233.js.map": "/system_design/static/js/main.bf3ce233.js.map",
     "787.3b014683.chunk.js.map": "/system_design/static/js/787.3b014683.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.04c7736d.js"
+    "static/js/main.bf3ce233.js"
   ]
 }
