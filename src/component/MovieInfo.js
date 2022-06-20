@@ -1,19 +1,31 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
 
 import MovieCard from './MovieCard';
 
-function MovieInfo() {
+function MovieInfo(props) {
     return (
-        <Box sx={{ 
-            display: 'flex',
-            justifyContent: 'space-around'
-        }}>
-            <MovieCard name="怪奇物語4" content="年輕的威爾從友人住處返家，途中卻目睹一番恐怖景象；不遠處的政府實驗室也暗藏不可告人的秘密。" />
-            <MovieCard name="奇異博士2：失控多重宇宙" />
-            <MovieCard name="怪獸與鄧不利多的秘密" />
-            <MovieCard name="我吃了那男孩一整年的早餐" />
-        </Box>
+        <Grid 
+            container 
+            columns={{md: 12}} 
+            spacing={2}
+            sx={{
+                p: 2
+            }}
+        >
+            <Grid item md={3}>
+                <MovieCard name="怪奇物語4" image="怪奇物語4.jfif" content="年輕的威爾從友人住處返家，途中卻目睹一番恐怖景象；不遠處的政府實驗室也暗藏不可告人的秘密。" />
+            </Grid>
+            <Grid item md={3}>
+                <MovieCard name="奇異博士2：失控多重宇宙" image="奇異博士2：失控多重宇宙.jpg" />
+            </Grid>
+            <Grid item md={3}>
+                <MovieCard name="怪獸與鄧不利多的秘密" image="怪獸與鄧不利多的秘密.jpg" />
+            </Grid>
+            <Grid item md={3}>
+                <MovieCard name="我吃了那男孩一整年的早餐" image="我吃了那男孩一整年的早餐.jfif" />
+            </Grid>
+        </Grid>
     )
 }
 
